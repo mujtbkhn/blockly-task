@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import L from "leaflet";
-import markerImage from "../assets/marker.webp";
-import carImage from "../assets/carImage.png";
+import markerImage from "../assets/marker.png"
+import car from "../assets/car.png";
 import "leaflet-routing-machine";
 import "leaflet-routing-machine/dist/leaflet-routing-machine.css";
 
@@ -12,7 +12,7 @@ const customMarkerIcon = new L.Icon({
 });
 
 const customCarImage = new L.Icon({
-  iconUrl: carImage,
+  iconUrl: car,
   iconSize: [45, 45],
   popupAnchor: [0, -20],
 });
