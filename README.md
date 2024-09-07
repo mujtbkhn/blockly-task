@@ -14,7 +14,6 @@ This web application allows users to visualize vehicle movement on a map using L
 - **React (Vite)**: Frontend framework for building the application.
 - **Leaflet**: For map integration and visualization.
 - **React Leaflet**: React components for Leaflet maps.
-- **leaflet-routing-machine**: For calculating routes and directions on the map.
 - **Tailwind CSS**: For styling the application.
 
 ## Getting Started
